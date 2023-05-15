@@ -19,9 +19,10 @@ From the collector logs, we see the following metrics related to the timer:
 * `my.timer.totalTime` - delta sum, monotonic
 * `my.timer.count` - delta sum, monotonic
 
-In the Splunk O11y app, these show up in Metric Finder like this:
+In the Splunk O11y app, these show up in Metric Finder and can be added to the dashboard like this:
 
-<img width="161" alt="image" src="https://github.com/breedx-splk/micrometer_perc_sla_timer/assets/75337021/4db61680-5542-4e44-b128-3c630ffe978a">
+<img width="1085" alt="image" src="https://github.com/breedx-splk/micrometer_perc_sla_timer/assets/75337021/305c4452-e984-4fda-80ee-17fcf9861c35">
+
 
 ## count:
 

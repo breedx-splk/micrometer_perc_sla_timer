@@ -16,9 +16,9 @@ public class MicrometerTimerApp {
         Timer timer = Timer.builder("my.timer")
                 .publishPercentiles(0.5, 0.95) // median and 95th percentile (1)
                 .publishPercentileHistogram() // (2)
-                .serviceLevelObjectives(Duration.ofMillis(100)) // (3)
-                .minimumExpectedValue(Duration.ofMillis(1)) // (4)
-                .maximumExpectedValue(Duration.ofSeconds(10))
+                .serviceLevelObjectives(Duration.ofMillis(999), Duration.ofMillis(1750)) // (3)
+                .minimumExpectedValue(Duration.ofMillis(10)) // (4)
+                .maximumExpectedValue(Duration.ofSeconds(10000))
                 .register(Metrics.globalRegistry);
 
         while(true){

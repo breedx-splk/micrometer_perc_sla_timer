@@ -12,11 +12,12 @@ The collector is configured to forward metrics to Splunk O11y ingest in OTLP/HTT
 
 From the collector logs, we see the following metrics related to the timer:
 
-* my.timer.percentile - gauge
-* my.timer.max - gauge
-* my.timer.avg - gauge
-* my.timer.totalTime - delta sum, monotonic
-* my.timer.count - delta sum, monotonic
+* `my.timer.percentile` - gauge
+* `my.timer.max` - gauge
+* `my.timer.avg` - gauge
+* `my.timer.totalTime` - delta sum, monotonic
+* `my.timer.count` - delta sum, monotonic
 
 In the Splunk O11y app, these show up in Metric Finder like this:
+
 <img width="161" alt="image" src="https://github.com/breedx-splk/micrometer_perc_sla_timer/assets/75337021/4db61680-5542-4e44-b128-3c630ffe978a">

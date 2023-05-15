@@ -13,6 +13,7 @@ The collector is configured to forward metrics to Splunk O11y ingest in OTLP/HTT
 From the collector logs, we see the following metrics related to the timer:
 
 * `my.timer.percentile` - gauge
+* `my.timer.histogram` - gauge
 * `my.timer.max` - gauge
 * `my.timer.avg` - gauge
 * `my.timer.totalTime` - delta sum, monotonic

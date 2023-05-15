@@ -8,7 +8,10 @@ A single micrometer `Timer` is updated every 1 second with one of 10 random valu
 is configured for P50 and P95 percentiles and is configured to publish the percentile histogram.
 
 The application emits `signalfx` formatted metric data from the `SignalFxMeterRegistry` to the collector.
-The collector is configured to forward metrics to Splunk O11y ingest in OTLP/HTTP.
+The collector is configured to forward metrics to Splunk O11y ingest in OTLP/HTTP. It is possibly that a 
+slightly different configuration could yield slightly different results.
+
+The data in the graphs below was spot-checked by hand agianst verbose collector logs.
 
 From the collector logs, we see the following metrics related to the timer:
 
@@ -47,6 +50,7 @@ In the Splunk O11y app, these show up in Metric Finder and can be added to the d
 
 ## histogram:
 
-Note: type is gauge, not actually histogram
+* Note: type is gauge, not actually histogram
+* Note: the two timeseries correspond to the min/max SLOs configured into the timer.
 
 <img width="1092" alt="image" src="https://github.com/breedx-splk/micrometer_perc_sla_timer/assets/75337021/c5adabc3-8d35-4078-b1c1-ce11e8a400c4">

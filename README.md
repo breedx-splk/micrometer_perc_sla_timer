@@ -48,5 +48,4 @@ In the Splunk O11y app, these show up in Metric Finder like this:
 
 Note: type is gauge, not actually histogram
 
-<img width="838" alt="image" src="https://github.com/breedx-splk/micrometer_perc_sla_timer/assets/75337021/cc0031b4-bb54-48c1-9c74-4109ce6d1b93">
-
+<img width="1092" alt="image" src="https://github.com/breedx-splk/micrometer_perc_sla_timer/assets/75337021/c5adabc3-8d35-4078-b1c1-ce11e8a400c4">

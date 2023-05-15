@@ -49,4 +49,3 @@ Note: type is gauge, not actually histogram
 
 <img width="838" alt="image" src="https://github.com/breedx-splk/micrometer_perc_sla_timer/assets/75337021/cc0031b4-bb54-48c1-9c74-4109ce6d1b93">
 
-<img width="843" alt="image" src="https://github.com/breedx-splk/micrometer_perc_sla_timer/assets/75337021/fb6beb3a-7412-443e-aeb1-1fd6374d5b3a">

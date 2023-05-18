@@ -27,6 +27,11 @@ public class BasicMicrometerTimerApp {
             }
 
             @Override
+            public boolean publishDeltaHistogram() {
+                return true;
+            }
+
+            @Override
             public Duration step() {
                 return Duration.ofSeconds(60);
             }

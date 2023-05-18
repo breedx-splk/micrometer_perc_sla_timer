@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-public class MicrometerTimerApp {
+public class InstrumentedMicrometerTimerApp {
 
     public static void main(String[] args) throws Exception {
         System.out.println("App starting");
